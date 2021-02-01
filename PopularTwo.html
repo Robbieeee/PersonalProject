@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA Compatible" content ="ie=edge">
+	<title>Moving With Your Pet</title>
+	<meta name="description" content="There are a lot of excellent defenders in MLB, but this defender has the slight edge over the rest of the pack">
+	<meta name="keywords" content="baseball, mlb, mlb news, mlb updates, rockies, arenado, nolan arenado">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link rel="stylesheet" href="styles.css">
+	 <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Mukta:wght@500&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+	
+	<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #096ee8;
+	padding: 0 3rem;
+	min-height: 10vh;
+	width: 100%;
+	height: 0rem;
+    overflow: hidden;
+	position: relative;
+	transition: height 0.5s ease-in-out;
+	
+}
+	
+.topnav{
+	position:fixed;
+	top: -1px;
+}
+
+.topnav a {
+  display: inline-flex;
+  text-align: center;
+  padding: 1.6rem 1.5rem;
+  font-size: 1.2rem;
+  position: relative;
+  font-family: 'Livvic', "Lucida Console";
+  color: black;
+	 
+}
+	
+	
+	
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: #3d3939;
+}
+
+.topnav a:hover {
+  color: white;
+  background-color: #07117d;
+}
+	
+.topnav a.active {
+  background-color: #096ee8;
+  color: black;
+  font-size: 1.6rem;
+  display: block;
+  left: 0%;
+  padding: 1rem 3rem;
+  font-family: 'Roboto Slab', serif;
+  float: left
+}
+
+.topnav .icon {
+  display: none;
+}
+
+	.topnav .icon:hover {
+   background-color: #096ee8;
+}
+
+					@media screen and (max-width: 910px) {
+
+		
+		.topnav a {
+  display: inline-flex;
+  text-align: center;
+  padding: 1.6rem 0.6rem;
+  font-size: 1.2rem;
+  position: relative;
+  font-family: 'Livvic', "Lucida Console";
+  color: black;
+	 
+}
+	
+}
+		
+		
+@media screen and (max-width: 750px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+	right: 40px;
+  }
+	
+	
+
+}
+
+@media screen and (max-width: 750px) {
+	
+	
+	
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 80px;
+    top: 0;
+  }
+	
+	.topnav.responsive{
+		 position: fixed;
+    	 top: 1px;
+		 width: 100%;
+		 height: 23rem;
+		
+	}
+
+	
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+	
+}
+		
+@media screen and (max-width: 545px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+	right: 40px;
+  }
+	
+	
+
+}
+
+@media screen and (max-width: 545px) {
+	
+	
+	
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 80px;
+    top: 0;
+  }
+	
+	.topnav.responsive{
+		 position: fixed;
+    	 top: 1px;
+		 width: 100%;
+		 height: 23rem;
+		
+	}
+
+	
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+	
+}	
+		
+		
+@media screen and (max-width: 480px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+	right: 40px;
+  }
+	
+	
+
+}
+
+@media screen and (max-width: 480px) {
+	
+	
+	
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 80px;
+    top: 0;
+  }
+	
+	.topnav.responsive{
+		 position: fixed;
+    	 top: 1px;
+		 width: 100%;
+		 height: 23rem;
+		
+	}
+
+	
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+	
+}		
+
+@media screen and (max-width: 390px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+	right: 180px;
+  }
+	
+	
+
+}
+
+@media screen and (max-width: 390px) {
+	
+	.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+   left: 265px;
+    top: 0;
+  }
+	
+	.topnav {
+	width: 140%;	
+	}
+	
+	.topnav.responsive{
+		 position: fixed;
+    	 top: 1px;
+		 width: 140%;
+		 height: 23rem;
+		
+	}
+	
+	.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	left: 0px;
+  }
+	
+	
+	.topnav a.active {
+  display: block;
+  padding: 1rem 0;
+  left: -35px;
+}
+}
+</style>
+	
+</head>
+<body>
+	<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">PetWorld</a>
+<a href="index.html">Home</a>
+	 <a href="baseball.html">Pet Trivia</a>
+		 <a href="contact.html">Contact Us</a>
+		 <a href="about.html">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+     <img src="./assets/bar2.png" alt="post-1">
+  </a>
+</div>
+	
+	
+	
+	
+	<div class="post-top">
+		<h2>Moving With Your Pet</h2>
+					<div class="post-image">
+						<div>
+							<img src="./assets/popular2.png" class="img" alt="Rogers Center" width=auto height=auto>
+						</div>
+					</div>
+	</div>
+	<div class="post-content">
+		
+			<p style="color:black">
+		Moving to a brand new home is also one of the foremost nerve-racking life events you’ll ever have to tackle. however within the chaos of cardboard boxes, packing tape and moving trucks, you would possibly not notice however stressed your pets feel, too. browse on for tactics to form the transition as safe and simple as attainable for your hairy  friends.
+		</p>
+		
+		<h3>Choosing a brand new Neighborhood, House or living accommodations: </h3>
+		
+		<p style="color:black">
+
+Before you decide on your dream home, confirm your pet can adore it even as very much as you are doing. It’s an honest plan to steer round the neighborhood to see whether or not the world appears safe for your pets. get on the lookout for neighborhood dogs that appear aggressive or square measure left unattended.
+		</p>
+		
+	<h3>When it involves sq. footage desires, cats and dogs differ:</h3>
+	
+  <p style="color:black">
+
+For your feline friends, guarantee your potential new area permits for lots of areas to make vertically—it’s straightforward to make plenty of vertical areas with shelving, like kitty blocks on high articles of furniture.
+		</p>
+		
+	
+<p style="color:black">
+Consider your dog’s desires on an item-by-item basis. Older dogs, puppies and dogs with house coaching problems can ought to go outside usually, which could be tough in an associate degree apartment house with millions of stairs or a house while not a yard.
+		</p>
+
+		
+		<h3>Packing Up Your Home</h3>
+		
+			<p style="color:black">
+Cats aren’t massive fans of amendment. you'll facilitate your cats (and nervous dogs) going with the moving method by transportation in moving boxes early, and by keeping your hairy  friends in an exceedingly acquainted area you propose to clean up last. On moving day, keep your pets in an exceedingly quiet area with the door shut, or at a friend’s house. this can make sure that your cat or dog won’t get afraid and check out to form a fast getaway whereas the movers lade the truck. throughout the moving method, try and keep your pet’s routine as traditional as attainable.
+		</p>
+		
+		<h3>Planning Your Road Trip</h3>
+		
+<p style="color:black">
+Many pets haven’t spent a lot of time in crates or cars. within the weeks or months leading up to the massive trip:
+			</p>
+
+		<p style="color:black">
+Prepare your pets by step by step acclimating them to their crates. First, place their food within the associate degree open crate, and eventually have them eat their meals within the crate with the door shut. 
+		</p>
+
+		<p style="color:black">
+Try carrying your pets round the house within the crate or taking a brief drive.
+		</p>
+		
+		<p style="color:black">
+		You can facilitate your pets develop a positive association with the crate by providing treats and leisure time at the conclusion of crate time.
+		</p>
+		
+		<p style="color:black">
+		Taking these steps can create a moving day plenty softer for you and your hairy friends.
+		</p>
+		
+		<h3>Pet-Proofing Your New Home
+</h3>
+		
+			<p style="color:black">
+			It is an honest plan to pet-proof your new home. tuck in electrical cords, plug up nooks wherever your pet might bog down, confirm that every one windows have secure screens, take away any toxic houseplants and make sure that no pest-control poison traps are left anyplace within the house.
+		</p>
+		
+		<h3>Settling In</h3>
+		
+			<p style="color:black">
+			
+When you hit your new home at the tip of your long journey, it'll be tempting to line your dog or cat loose within the house to explore. However, a brand new and unfamiliar  area is overwhelming to your pets.
+		</p>
+		
+			<p style="color:black">
+		Start by permitting them to regulate to 1 room—their “home base”—which ought to embody their favorite toys, treats, water and food bowls and litter box for cats.
+		</p>
+		
+		<p>
+		When they appear snug, step by step introduce them to alternative rooms within the house, whereas keeping some doors shut.
+			</p>
+		
+		<p style="color:black">
+			You can relocate your cat’s litter box from the “home base” area to an additional permanent location by moving it slowly over time. attempt moving the litter box one foot forward on a daily basis.
+		</p>
+		
+		<p style="color:black">
+		With patience, your cat or dog is going to be king or queen of your new aim in no time.	
+		</p>
+		
+		
+		
+		
+						
+						
+	<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+	</body>
+	
+</html>

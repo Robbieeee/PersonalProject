@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+<head> 
+    <meta charset="UTF-8">
+    <meta name= "viewport" content="width=device-width,
+    initial-scale=1.0">
+    <meta https-equiv="X-UA-Compatible" content="ie=edge">
+    <title> About</title> 
+	 <link rel="stylesheet" href="./about.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Mukta:wght@500&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+	
+	<style>
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #096ee8;
+	padding: 0 3rem;
+	min-height: 10vh;
+	width: 100%;
+	height: 0rem;
+	float: inherit;
+    overflow: hidden;
+	position: relative;
+	transition: height 0.5s ease-in-out;
+		
+	
+}
+	
+.topnav{
+	position:fixed;
+	top: 0px;
+}
+
+.topnav a {
+  display: inline-flex;
+  text-align: center;
+  padding: 1.6rem 1.5rem;
+  font-size: 1.2rem;
+  position: relative;
+  font-family: 'Livvic', "Lucida Console";
+  color: black;
+text-decoration: none;
+	 
+}
+	
+	
+	
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: #3d3939;
+}
+
+.topnav a:hover {
+  color: white;
+  background-color: #07117d;
+}
+	
+.topnav a.active {
+  background-color: #096ee8;
+  color: black;
+  font-size: 1.6rem;
+  display: block;
+  left: 0%;
+  padding: 1rem 3rem;
+  font-family: 'Roboto Slab', serif;
+  float: left
+}
+
+.topnav .icon {
+  display: none;
+}
+
+	.topnav .icon:hover {
+   background-color: #096ee8;
+}
+
+@media screen and (max-width: 750px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+	
+	
+
+}
+		
+			@media screen and (max-width: 900px) {
+
+		
+		.topnav a {
+  display: inline-flex;
+  text-align: center;
+  padding: 1.6rem 1rem;
+  font-size: 1.2rem;
+  position: relative;
+  font-family: 'Livvic', "Lucida Console";
+  color: black;
+	 
+}
+	
+}
+
+		
+	@media screen and (max-width: 810px) {
+
+		
+		.topnav a {
+  display: inline-flex;
+  text-align: center;
+  padding: 1.6rem 0.6rem;
+  font-size: 1.2rem;
+  position: relative;
+  font-family: 'Livvic', "Lucida Console";
+  color: black;
+	 
+}
+	
+}
+
+		
+
+@media screen and (max-width: 770px) {
+	
+	
+	
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+	  left: 550px;
+    top: 0;
+  }
+	
+	.topnav.responsive{
+		 position: fixed;
+    	 top: 0px;
+		 width: 100%;
+		 height: 24rem;
+		
+	}
+
+	
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+	  .column {
+    display: block;
+	  margin-left: 50%;
+	  margin-right: 50%;
+	 position: absolute;
+	  top: 700px;
+  }
+	
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #b81f1f;
+  color: white;
+	width: 120%;
+	
+}	
+	.column {
+  float: left;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  margin-top: -45px;
+	margin-left: 10%;
+	margin-right: 0%;
+	justify-content: center;
+}
+	
+	h2{
+		text-align: center;
+	}
+	
+}
+	@media screen and (max-width: 545px) {
+	
+	.topnav {
+	width: 110%;	
+}
+
+			
+.topnav a.active {
+  display: block;
+  padding: 1rem 0;
+  left: 8px;
+}
+
+	
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+	  left: 400px;
+  }
+	
+	.topnav.responsive{
+		 position: fixed;
+    	 top: 0px;
+		 width: 110%;
+		 height: 24rem;
+		
+	}
+
+	
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+	
+			.column {
+  float: left;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  margin-top: 85px;
+	margin-left: 10%;
+	margin-right: 0%;
+	justify-content: center;
+}
+
+	
+}
+@media screen and (max-width: 480px) {
+	
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+   left: 300px;
+    top: 0;
+  }
+	
+	.topnav {
+	width: 110%;	
+	}
+	
+	.topnav.responsive{
+		 position: fixed;
+    	 top: 0px;
+		 width: 110%;
+		 height: 24rem;
+		
+	}
+	
+	.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	left: 40px;
+  }
+	
+	
+	.topnav a.active {
+  display: block;
+  padding: 1rem 0;
+  left: 4px;
+}
+}
+@media screen and (max-width: 390px) {
+	
+	.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+   left: 304px;
+    top: 0;
+  }
+	
+	.topnav {
+	width: 110%;	
+	}
+	
+	.topnav.responsive{
+		 position: fixed;
+    	 top: 0px;
+		 width: 110%;
+		 height: 24rem;
+		
+	}
+	
+	.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	left: 20px;
+  }
+	
+	
+	.topnav a.active {
+  display: block;
+  padding: 1rem 0;
+  left: 2px;
+}
+	
+				.column {
+  float: left;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  margin-top: 205px;
+	margin-left: 10%;
+	margin-right: 0%;
+	justify-content: center;
+}
+}
+		@media screen and (max-width: 340px) {
+	
+	.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+   left: 304px;
+    top: 0;
+  }
+	
+	.topnav {
+	width: 110%;	
+	}
+	
+	.topnav.responsive{
+		 position: fixed;
+    	 top: 0px;
+		 width: 110%;
+		 height: 23rem;
+		
+	}
+	
+	.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	left: 20px;
+  }
+	
+	
+	.topnav a.active {
+  display: block;
+  padding: 1rem 0;
+  left: 2px;
+}
+	
+				.column {
+  float: left;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  margin-top: 255px;
+	margin-left: 10%;
+	margin-right: 0%;
+	justify-content: center;
+}
+}
+		
+		
+</style>
+	
+
+
+</head>
+    
+    <body>
+		
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">PetWorld</a>
+<a href="index.html">Home</a>
+	 <a href="baseball.html">Pet Trivia</a>
+	 <a href="contact.html">Contact Us</a>
+	 <a href="about.html">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+     <img src="./assets/bar2.png" alt="post-1">
+  </a>
+</div>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+		
+
+<div class="about-section">
+  <h1>About The Site</h1>
+	<h2>Bringing You And Your Pets Together</h2>
+  <p>This site was started out of my passion for pets and writing. I have had a cat for a couple of years now, a Siamese cat named Athena. I have some experience caring for her and I share that knowledge and experience on this website. I have become quite good at writing, as I was in the top 10 for a children’s Canadian writing competition out of thousands of other kids. </p>
+	<p>
+This project is small right now, as I created the website only recently. This site is better than other pet websites  because I am the person doing everything so I always put in 100% effort and care into what I do. Also, I do not treat this as “work” but a fun thing to do and I’m not doing this for money, which will ensure the quality of work is always top notch. 
+</p>
+	<p>
+This site is very important to me because I enjoy creating high quality content for you. I value you, and your opinions matter in making this company better every day. Feel free to contact me on the  “Contact” page.  
+</p>
+  
+</div>
+
+<div class="row">
+
+
+  <div class="column" style="align-content: :center">
+    <div class="card">
+      <img src="./assets/owl1.png" alt="Robbie" style="width:100%">
+      <div class="container">
+        <h2>Robbie E.</h2>
+        <p class="title">Founder & CEO</p>
+        <p>My name is Robbie and I am a teenager located in Canada. I designed and wrote everything on this website myself. I am extremely passionate about pets.</p>
+        <p>Email: info@petworld.ca</p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+	
+	<p>    </p>
+
+</div>
+	
+	
+
+		</body>

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA Compatible" content ="ie=edge">
+	<title>How To Adopt A Pet</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link rel="stylesheet" href="styles.css">
+	 <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Mukta:wght@500&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+	
+	<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #096ee8;
+	padding: 0 3rem;
+	min-height: 10vh;
+	width: 100%;
+	height: 0rem;
+    overflow: hidden;
+	position: relative;
+	transition: height 0.5s ease-in-out;
+	
+}
+	
+.topnav{
+	position:fixed;
+	top: -1px;
+}
+
+.topnav a {
+  display: inline-flex;
+  text-align: center;
+  padding: 1.6rem 1.5rem;
+  font-size: 1.2rem;
+  position: relative;
+  font-family: 'Livvic', "Lucida Console";
+  color: black;
+	 
+}
+	
+	
+	
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: #3d3939;
+}
+
+.topnav a:hover {
+  color: white;
+  background-color: #07117d;
+}
+	
+.topnav a.active {
+  background-color: #096ee8;
+  color: black;
+  font-size: 1.6rem;
+  display: block;
+  left: 0%;
+  padding: 1rem 3rem;
+  font-family: 'Roboto Slab', serif;
+  float: left
+}
+
+.topnav .icon {
+  display: none;
+}
+
+	.topnav .icon:hover {
+   background-color: #096ee8;
+}
+		
+		@media screen and (max-width: 810px) {
+
+		
+		.topnav a {
+  display: inline-flex;
+  text-align: center;
+  padding: 1.6rem 0.8rem;
+  font-size: 1.2rem;
+  position: relative;
+  font-family: 'Livvic', "Lucida Console";
+  color: black;
+	 
+}
+	
+}
+
+@media screen and (max-width: 750px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+	right: 40px;
+  }
+	
+	
+
+}
+
+@media screen and (max-width: 750px) {
+	
+	
+	
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 80px;
+    top: 0;
+  }
+	
+	.topnav.responsive{
+		 position: fixed;
+    	 top: 1px;
+		 width: 100%;
+		 height: 23rem;
+		
+	}
+
+	
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+	
+}
+		
+@media screen and (max-width: 545px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+	right: 40px;
+  }
+	
+	
+
+}
+
+@media screen and (max-width: 545px) {
+	
+	
+	
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 80px;
+    top: 0;
+  }
+	
+	.topnav.responsive{
+		 position: fixed;
+    	 top: 1px;
+		 width: 100%;
+		 height: 23rem;
+		
+	}
+
+	
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+	
+}	
+		
+		
+@media screen and (max-width: 480px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+	right: 40px;
+  }
+	
+	
+
+}
+
+@media screen and (max-width: 480px) {
+	
+	
+	
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 80px;
+    top: 0;
+  }
+	
+	.topnav.responsive{
+		 position: fixed;
+    	 top: 1px;
+		 width: 100%;
+		 height: 23rem;
+		
+	}
+
+	
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+	
+}		
+
+@media screen and (max-width: 390px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+	right: 180px;
+  }
+	
+	
+
+}
+
+@media screen and (max-width: 390px) {
+	
+	.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+   left: 265px;
+    top: 0;
+  }
+	
+	.topnav {
+	width: 140%;	
+	}
+	
+	.topnav.responsive{
+		 position: fixed;
+    	 top: 1px;
+		 width: 140%;
+		 height: 23rem;
+		
+	}
+	
+	.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	left: 0px;
+  }
+	
+	
+	.topnav a.active {
+  display: block;
+  padding: 1rem 0;
+  left: -35px;
+}
+}
+		
+</style>
+	
+
+	
+	
+</head>
+	
+<body>
+	
+
+	<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">PetWorld</a>
+<a href="index.html">Home</a>
+	 <a href="baseball.html">Pet Trivia</a>
+		 <a href="contact.html">Contact Us</a>
+		 <a href="about.html">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+     <img src="./assets/bar2.png" alt="post-1">
+  </a>
+</div>
+	
+	
+
+	
+	
+	
+	<div class="post-top">
+		
+	
+		<h2>How To Adopt a Pet</h2>
+		
+	
+		
+		<style>
+.aligncenter {
+    text-align: center;
+}
+</style>
+		<br>
+		<br>
+		
+		
+		<br>
+		
+					<div class="post-image">
+						<div>
+							<img src="./assets/main1.png" class="img" alt="Rogers Center" width=auto height=auto>
+						</div>
+					</div>
+	</div>
+	
+		
+	
+	<div class="post-content">
+		
+
+
+
+		
+		
+		
+			<p style="color:black">
+If you’ve ne'er adopted a pet before, you'll be inquisitive, however will the method work? however long will it take? what proportion will it cost? The knowledge below can assist in giving you a summary of however it works to adopt a pet from Shelters and Rescues, or Rehome: Cared for by non-public Owner pet listings. every is totally different, and it helps to know what to expect, thus you'll be able to have a higher overall pet adoption expertise.
+		</p>
+		
+		
+		<style>
+.aligncenter {
+    text-align: center;
+}
+</style>
+		
+		<h3>Adopting from a Shelter
+</h3>
+		
+		<p style="color:black">
+Shelters embody public shelters just like the town and country animal shelters, animal management, police and health departments, dog wardens, and square measure typically referred to as the pound. There are non-public shelters that may use the words ``humane society” or “SPCA” in their name. they're all separate, severally run organizations or government offices. simply because shelters have similar names doesn't mean they're connected — similar to totally different banks may need the word “bank” in their name.
+				</p>
+		
+		
+		<style>
+.aligncenter {
+    text-align: center;
+}
+</style>
+		
+				
+		<p style="color:black">
+
+Shelters typically have a physical facility, with staff, and in operation hours. Some have volunteers and do adoption events around the city too. If the pet you see on Adopt-a-Pet.com says that pet is at a Shelter associate degreed has an address with business hours, the best thanks to adopt that pet could also be to travel visit. That’s as a result of some shelters square measure being under-staffed and will not answer all phone calls or emails. particularly if the pet listing says ACT QUICKLY you ought to visit that shelter ASAP to examine that pet!
+			</p>
+		
+
+		
+  <p style="color:black">
+Each shelter’s adoption method is totally different. Here’s associate degree example of however a shelter adoption would possibly work:
+		</p>
+		
+		
+		
+	
+<p style="color:black">
+You find a pet you would like to adopt on<a href="https://www.adoptapet.com
+"> <span style="color: mediumblue;">Adopt-a-Pet.com </span> </a>  who’s at a shelter.
+On the pet’s page, that shelter’s Adoption method would possibly direct you to go to the shelter facility throughout their adoption hours, or to email them for an arrangement. You visit the shelter and see the pet. He’s adorable! You raise at the shelter table and if they have a worker or volunteer take him out thus you'll be able to meet with him. You fall infatuated.
+You visit the shelter’s front table, provide them your image ID, pay the adoption fee (average vary is $25 to $200), and find copies of the pet’s vaccination records and sterilization certificate thus you'll be able to get him accredited.
+You take your new pet home!
+
+		</p>
+		
+		<h3>Adopting from a Rescue</h3>
+		
+			<p style="color:black">
+Rescues most frequently have their pets in foster homes or non-public boarding facilities, and square measure travel by volunteers. they'll have adoption events at pet stores on the weekends. If a pet you see on Adopt-a-Pet.com says that pet is at a Rescue, make certain to scan the pet description and therefore the Adoption method thereunder, and follow every rescue’s directions. Some like you email them initially (click the raise regarding Pine Tree State button thereon pet’s page), some like you fill out their application before asking a few pets, so that they will answer your queries additional knowledgeably.
+		</p>
+		
+<p style="color:black">
+Please wait once watching for a response from a rescue, giving them a number of days to retort. Rescue volunteers {are|ar|area unit|square Pine Tree Stateasure} folks similar to you and me, typically with terribly full lives additionally to their rescue volunteering.
+			</p>
+		
+		<p style="color:black">
+
+Each rescue’s adoption method is totally different. Here’s one example of however a rescue adoption would possibly work:
+			</p>
+		
+		<p style="color:black">
+You find a pet you would like to adopt on<a href="https://www.adoptapet.com
+"> <span style="color: mediumblue;">Adopt-a-Pet.com </span> </a> who’s at a rescue.
+You scan that pet’s Adoption method. It says fill out their on-line application, and there’s a link thereon pet’s page thereto rescue’s web site and application. On succeeding day, one among the rescue’s volunteers calls you and you refer to them additional regarding the pet. It feels like an honest match, and comply with returning to meet the pet at their adoption event during a native pet store that weekend.
+ 
+			</p>
+		
+		<p style="color:black">
+You meet the pet and fall infatuated. an incident volunteer calls a home check volunteer, and you all prepare for a home visit. when the house visits, you get a decision from a volunteer to allow you to apprehend you may be the house adopting the pet! They email you copies of his vaccination and sterilization records. You prepare a delivery day for your new pet.
+Your new pet is brought by his foster volunteer to your home! You sign their adoption contract and pay their adoption fee (usually ranges from $100 to $300 however generally more).
+	</p>
+		
+		<h3>Adopting from a Rehome non-public Owner</h3>
+		
+		<p style="color:black">
+			If you see “I’m Being Cared for by a non-public Owner” on the highest of a pet’s page, it means they were listed by their owner through Adopt-a-Pet.com’s Rehome program, thus you may be adopting the pet directly from the pet’s non-public owner. scan all regarding the pet. If you’re curious about chatting with the owner and meeting the pet, click “Apply To Adopt” and apply. The owners are going to be notified of your application, so that they will review it and decide if they’re interested.
+
+			</p>
+		
+		<p style="color:black">
+			Rehome asks non-public homeowners to reply to you promptly, and most do at intervals a number of days. but some homeowners square measure in tough things, thus please permit up to fourteen days for associate degree owners to retort to you. Rehome is merely the listing website. it's up to the owner to settle on the World Health Organization to contact and the World Health Organization can adopt their pet. it's up to you the parent to raise innumerable questions on the pet on the phone with the owner, then meet the pet personally before paying safely through the Rehome web site to adopt a personal owner pet.
+			</p>
+		
+		<h3>Shelter vs Rescue vs non-public Owner</h3>
+		
+		<p style="color:black">
+			Some of the benefits of adopting from a shelter square measure you would possibly be ready to see several pets for adoption all directly at their facility. Several shelters have a really simple or no screening method, and can allow you to earn a pet you would like on a constant day. Adoption fees are typically under a rescue’s, however you'll have to procure further vet care when adopting.
+			</p>
+		
+		<p style="color:black">
+			Some of the benefits of adopting from a rescue square measure typically apprehend loads regarding every of the pets in their care, since the pets could also be in foster homes. A rescue may need an additional concerned screening method, which may take longer, however will assist you adopt a pet that's additional probably to be a better match for your home. Adoption fees square measure typically on top of a shelter, however typically embody vet care that will price additional if you paid the vet yourself.
+			</p>
+		
+		<p style="color:black">
+			Some of the benefits of adopting directly from a Rehome non-public owner is that the owner could apprehend loads regarding their pet’s behavior and health. The pets are going to be going straight from a home to your home, which may be less nerve-wracking than being during a shelter. Non-public homeowners aren't as old as shelters and rescues at doing adoptions and every non-public owner is going to be terribly totally different in however they handle communication with candidates, and really totally different in what vet care they’ve been ready to give for his or her pet.
+			</p>
+		
+		<p style="color:black">
+			We hope this summary and these examples assist you with higher perception however you'll be able to adopt a pet. If you’re able to begin trying to find a pet to adopt, click on the “Find A Pet” menu on top of to go looking for dogs for adoption, cats for adoption, or alternative pets for adoption like rabbits, horses, and more.
+			</p>
+		
+		<p style="color:black">
+			Thank you for adopting a pet!
+			</p>
+		
+		
+						
+						
+	<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+	
+	
+	
+
+	</body>
+	
+</html>
